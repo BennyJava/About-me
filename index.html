@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamins Bewerbungsseite</title>
+    <link rel="stylesheet" href="style.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jim+Nightshade&family=Merriweather:ital,wght@0,700;0,900;1,700&family=PT+Serif:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Raleway&family=Roboto+Slab:wght@400;500;600;700&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+<script>
+    function bewegung() {
+        var navbar = document.getElementById("navbar");
+        
+    }
+    function jumpToSection(sectionId) {
+  var section = document.getElementById(sectionId);
+  section.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+}
+</script>
+</head>
+<body>
+    <div class="background"></div>
+    <header>
+        <h1 class="headline">Meine Bewerbungs-Website</h1>
+    
+            <button onclick="jumpToSection('abschnitt1')" class="navbar" href="">Zertifikate</button>
+            <button onclick="jumpToSection('abschnitt2')" class="navbar" href="">Über mich</button>
+            <button onclick="jumpToSection('abschnitt3')" class="navbar" href="">Impressum</button>
+        <h2 id="überschrift">Das bin ich</h2>
+        <p class="Übermich"> Hey, ich bin Benny und hier auf meiner ersten eigenen Website, finden sie alle wichtigen<br>
+            Unterlagen über mich, sowie meinen Lebenslauf und weitere Dokumente.<br>
+            Ich lerne momentan durch Youtube Videos und eigeninitiative HTML, CSS und JavaScript.<br>
+            Ich hoffe meine Erfahrungen kommen gut bei ihnen an und sie sehen, dass ich was auf<br>
+            dem Kasten habe ;)</p>
+            <div> <img class="img" src="LsmZ.jpg"></div>
+    </header>
+    <section>
+        <div id="abschnitt1">
+        <h2 id="überschrift2">Meine Zertifikate</h2>
+        </div>
+        <img class="Zertifikate"src="Coursera HTML,CSS,JS.jpg">
+        <img class="Zertifikate"src="Coursera SQL Zertifikat.jpg">
+        <div id="abschnitt2">
+        <h2 id="überschrift3">Über mich</h2>
+        <p class="aboutme">Guten Tag, ich bin Benjamin Rocha Nogueira, gelernter Einzelhandelskaufmann und ich möchte gerne einen neuen Berufsweg einschlagen und in der IT meine Zukunft gestalten. 
+            Ich bin ein sehr offener und recht gesprächiger Mensch, der sich nicht davor scheut, neue Menschen kennenzulernen.
+             Nach dem Abbruch meines 3 Semester langen Studiums zum Wirtschaftsingenieur habe ich die IT recht schnell für mich entdeckt und bin auf JavaScript und Softwareentwicklung gestoßen.
+             Seit Mitte November 2022 bin ich dabei mir hauptsächlich HTML, CSS und JavaScript anzueignen. Nebenbei habe ich noch ein Zertifikat für SQL Datenbanken abgeschlossen, um meinen Horizont zu erweitern.
+             Noch dazu liebe ich es neue Dinge zu lernen, bin gerne auf der Suche nach neuen Herausforderungen und mag es ganz besonders zu sehen, was ich geschafft und gemacht hab sowie Probleme zu lösen. 
+             Leider bekomme ich wegen meiner Ausbildung keinen Bildungsgutschein, also muss ich mir mein ganzes Wissen über Youtube, Coursera, Udemy und selbstständiges lernen aneignen. 
+             Zu meinem Datenbanken Zertifikat, habe ich noch ein Zertifikat in HTML, CSS und JavaScript, welche sie in meinen Unterlagen einsehen können. 
+             Momentan bin ich dabei, mein Wissen in JavaScript zu erweitern und mir ein Portfolio aufzubauen.</p></div>
+    </section>
+    <section>
+        
+    </section>
+    <footer>
+        <ul>
+            <div id="abschnitt3">
+            <li>Impressum:</li>
+            <li>Benjamin Rocha Nogueira</li>
+            <li>Wohnort:</li>
+            <li>38446 Wolfsburg</li>
+        </div>
+        <br>
+            <li>Tel: 01607556965</li>
+            <li>E-mail: benny.nogueira@gmx.de</li>
+    </footer>
+</body>
+</html>
